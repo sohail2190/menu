@@ -1,0 +1,110 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap');
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'lato', sans-serif;
+  font-weight: 900;
+  line-height: 1.5;
+  font-size: 0.875rem;
+}
+
+.menu{
+  padding: 1rem o;
+}
+.title{
+  text-align: center;
+  margin-bottom: 1rem;
+  font-family: 'Merienda', cursive;
+  font-size: 3rem;
+}
+
+
+.underline{
+  width: 5rem;
+  height: 0.25rem;
+  background-color: indigo;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn-container{
+  margin-bottom: 4rem;
+  display: flex;
+  justify-content: center;
+}
+
+.filter-btn{
+  background-color: transparent;
+  border-color: transparent;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  margin: o o.5rem;
+  letter-spacing: 1px;
+  padding: 0.375rem 0.75rem;
+  color: indigo;
+  border-radius: .2rem;
+  cursor: pointer;
+  font-family: 'Merienda', cursive;
+}
+
+.filter-btn:hover{
+  background-color: indigo;
+  color: white;
+}
+.section-center{
+  width: 90vw;
+  margin: 0 auto;
+  display: grid;
+  gap: 3rem 2rem;
+  justify-items: center;
+}
+
+.menu-item{
+  display: grid;
+  gap: 1rem 2rem;
+  max-width: 20rem;
+}
+
+.photo{
+  object-fit: cover;
+  height: 200px;
+  width: 100%;
+  border: 0.25rem solid indigo;
+  display: block;
+}
+
+.item-info-header{
+  display: flex;
+  justify-content: space-between; 
+}
+
+.item-info-h4{
+  margin-bottom: 0.5rem;
+}
+.section-center{
+  width: 95vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+.price{
+  color: indigo;
+}
+
+.photo{
+  height: 150px;
+}
