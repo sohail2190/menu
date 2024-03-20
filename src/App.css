@@ -108,3 +108,6 @@ body{
 .photo{
   height: 150px;
 }
+.item-text{
+  font-weight: 100;
+}
